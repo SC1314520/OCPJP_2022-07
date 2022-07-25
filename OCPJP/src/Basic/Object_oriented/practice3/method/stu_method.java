@@ -1,6 +1,6 @@
 package Basic.Object_oriented.practice3.method;
 
-public class stu_method {
+public class stu_method { //不傳值法 void
 	private String name;
 	private int chi,eng,sum;
 	private double avg;
