@@ -52,4 +52,8 @@ public class stu_method3 {  // getter and setter
 		avg=(eng+chi)/2.;
 		return avg;
 	}
+	@Override
+	public String toString() {
+		return "stu_method3 [name=" + name + ", chi=" + chi + ", eng=" + eng + ", sum=" + sum + ", avg=" + avg + "]";
+	}
 }
