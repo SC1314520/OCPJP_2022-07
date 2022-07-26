@@ -17,9 +17,9 @@ public class rate_method_static_pro_max { // static寫法  --> 優化寫法
 	public static int getMoney() {
 		return money;
 	}
-	public static void setMoney(int money) {  //若要轉寫 static void --> 裡面的變數也要是 static 型態。
-		rate_method_static_pro_max.money = money;
-		// 不可撰寫為 this.money=money;
+	public static void setMoney(int money) {  //若要撰寫 static void --> 裡面的變數也要是 static 型態。
+		rate_method_static_pro_max.money = money;  // 這是類別類的撰寫法。
+		// 不可撰寫為 this.money=money;   <-- this 在編譯時，會被拿來判斷視為物件類，所以此寫法只有物件類可以使用。
 	}
 	
 	public void calc() {
