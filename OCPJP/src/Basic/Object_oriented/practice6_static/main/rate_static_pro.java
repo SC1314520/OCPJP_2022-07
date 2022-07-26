@@ -1,6 +1,5 @@
 package Basic.Object_oriented.practice6_static.main;
 
-import Basic.Object_oriented.practice6_static.method.rate_method_static;
 import Basic.Object_oriented.practice6_static.method.rate_method_static_pro;
 
 public class rate_static_pro {  // static寫法  --> 優化寫法
