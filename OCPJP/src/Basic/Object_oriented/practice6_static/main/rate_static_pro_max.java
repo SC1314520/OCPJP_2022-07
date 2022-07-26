@@ -2,6 +2,7 @@ package Basic.Object_oriented.practice6_static.main;
 
 import Basic.Object_oriented.practice6_static.method.rate_method_static_pro_max;
 
+
 public class rate_static_pro_max {  // static寫法  --> 優化寫法
 	public static void main(String[] args) {
 		
