@@ -19,4 +19,3 @@ public class switch_ex {
 		System.out.println(wd); // 輸出結果： 3
 	}
 }
-// 
