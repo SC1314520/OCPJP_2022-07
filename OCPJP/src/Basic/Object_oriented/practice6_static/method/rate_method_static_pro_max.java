@@ -21,6 +21,9 @@ public class rate_method_static_pro_max { // static寫法  --> 優化寫法
 		rate_method_static_pro_max.money = money;  // 這是類別類的撰寫法。
 		// 不可撰寫為 this.money=money;   <-- this 在編譯時，會被拿來判斷視為物件類，所以此寫法只有物件類可以使用。
 	}
+	public static void setMoney2(int money2) { //也可以這樣寫
+		money=money2;
+	}
 	
 	public void calc() {
 		sum= money*(1+rate*time);

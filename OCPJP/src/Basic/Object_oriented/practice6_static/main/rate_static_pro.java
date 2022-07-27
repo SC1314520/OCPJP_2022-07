@@ -12,7 +12,6 @@ public class rate_static_pro {  // static寫法  --> 優化寫法
 		rate_method_static_pro rm2=new rate_method_static_pro(0.012,4); // static 屬性不須放入建構子
 		rate_method_static_pro rm3=new rate_method_static_pro(0.013,3); // static 屬性不須放入建構子
 		rate_method_static_pro rm4=new rate_method_static_pro(0.014,2); // static 屬性不須放入建構子
-		
 		rm1.calc();
 		rm2.calc();
 		rm3.calc();
