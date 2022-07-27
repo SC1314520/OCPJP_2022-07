@@ -3,10 +3,13 @@ package Basic.Object_oriented.practice6_static.main.inner;
 public class innerClass2 { //類別類 innerClass
 	public static void main(String[] args) {
 		//student2.A a1 = new student2().new A(); 不可以這樣寫。 ....(1)
+		
+		// none-static method
 		student2.A a1=new student2.A();
 		a1.show(); //A1
 		new student2.A().show(); //A1
-		//static method
+		
+		//static method 
 		a1.show2(); //A2
 		new student2.A().show2();//A2
 		student2.A.show2(); //A2 -->最佳寫法。
