@@ -6,7 +6,15 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
+/*
+ * for-loop:
+ *  	process all the elements of the array in the order of entry.
+ *  	process all the elements of the array in the reverse order of entry.
+ *  	process alternating elements of the array in the order of entry.
+ *  
+ *  for each-loop:
+ *  	process all the elements of the array in the order of entry.
+ */
 public class foreach_model1 {
 	public static void main(String[] args) {
 		//陣列
