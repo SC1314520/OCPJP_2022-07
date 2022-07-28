@@ -1,6 +1,4 @@
-package Basic.Object_oriented.practice3.main;
-
-import Basic.Object_oriented.practice3.method.order_method;
+package Basic.Object_oriented.practice3_encapsulation;
 
 public class order {
 	public static void main(String[] args) {

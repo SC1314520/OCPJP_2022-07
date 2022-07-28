@@ -1,4 +1,4 @@
-package Basic.Object_oriented.practice3.method;
+package Basic.Object_oriented.practice3_encapsulation;
 
 public class order_method {
 	// field 屬性 --> 只可宣告變數(不可以寫 if...之類的)

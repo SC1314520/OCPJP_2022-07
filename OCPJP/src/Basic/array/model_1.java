@@ -16,6 +16,7 @@ public class model_1 {
 		//--------------陣列宣告法-----------------//  
 		// array-1
 		int[] array=new int[3]; // new 給 default 初始值 --> 動態初始值
+		//int array[] =new int[3];//也可以這樣寫！！
 		array[0]=123;
 		array[1]=456;
 		array[2]=789;
