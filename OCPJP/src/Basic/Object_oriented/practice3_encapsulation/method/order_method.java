@@ -1,12 +1,16 @@
-package Basic.Object_oriented.practice3_encapsulation;
+package Basic.Object_oriented.practice3_encapsulation.method;
 
 public class order_method {
 	// field 屬性 --> 只可宣告變數(不可以寫 if...之類的)
-	/*
+	/* encapsulation:
 	 * default : 同一個資料夾
 	 * public : 不設限制
 	 * private : 同一個 class
 	 * protected : 繼承的父子類別皆可以使用，其餘不可。
+	 */
+	/* 
+	 * encapsulation:
+	 * 
 	 */
 	private String name;
 	private int pencil,ruler;
