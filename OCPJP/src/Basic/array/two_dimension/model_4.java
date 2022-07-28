@@ -1,4 +1,4 @@
-package Basic.array;
+package Basic.array.two_dimension;
 /*
  * 二維陣列：
  * 		1. It is implemented as an array of the specified element type.	(V)
