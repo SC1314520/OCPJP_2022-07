@@ -10,7 +10,14 @@ public class order_method {
 	 */
 	/* 
 	 * encapsulation:
-	 * 
+	 * 	best description:
+	 * 		1. Encapsulation ensures that classes can be designed so that only certain fields and methods of an object are accessible from other objects.
+	 * 	concept:
+	 * 		1. use access modifiers to protect variables and hide them within a class.
+	 * 	benefits:
+	 * 		1. Enables the class implementation to protect its invariants.
+	 * 		2. Protects confidential data from leaking out of the objects.
+	 * 		3. Allows a class implementation to change without changing the clients.	
 	 */
 	private String name;
 	private int pencil,ruler;
