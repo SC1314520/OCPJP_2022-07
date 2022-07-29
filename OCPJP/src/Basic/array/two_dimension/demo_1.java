@@ -32,6 +32,7 @@ public class demo_1 { // 二維陣列
 		// 印出陣列
 		System.out.println(Arrays.toString(nums2)); // 輸出:  [[I@73a28541, [I@6f75e721] 
 		System.out.println(Arrays.toString(nums2[0])); //輸出: [1, 2, 3]
+		
 		// for 迴圈
 		for(int[] i:nums2) {
 			System.out.println(Arrays.toString(i)); // 輸出: [1, 2, 3] , [4, 5, 6]
@@ -40,5 +41,16 @@ public class demo_1 { // 二維陣列
 			System.out.println(Arrays.toString(nums2[i])); // 輸出: [1, 2, 3] , [4, 5, 6]
 		}
 		
+		// for 迴圈拆解元素
+		for(int i=0;i<nums2.length;i++) {
+			for(int j=0;j<nums2[i].length;j++) {
+				System.out.println(nums2[i][j]); // 輸出: 1,2,3,4,5,6
+			}
+		}
+		for(int[] i:nums2) {
+			for(int j :i) {
+				System.out.println(j); // 輸出: 1,2,3,4,5,6
+			}
+		}
 	}
 }
