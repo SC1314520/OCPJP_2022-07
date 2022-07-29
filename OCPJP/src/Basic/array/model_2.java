@@ -23,8 +23,8 @@ public class model_2 {
 		
 		//--------------------------------------//
 		int[] s= {1,2,3};
-		System.out.println(s); //產生記憶體位置
-		System.out.println(s.toString());//產生記憶體位置
+		System.out.println(s); //產生hashcode位置s
+		System.out.println(s.toString());//產生hashcode位置
 		System.out.println(Arrays.toString(s)); // 輸出:[1,2,3]
 	}
 }

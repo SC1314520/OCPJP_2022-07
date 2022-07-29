@@ -14,7 +14,7 @@ public class model_5_value_address {
 		// x[0]=y[0] 值＝值 pass by values (copy) 
 		System.out.println(x); // [I@7ad041f3
 		System.out.println(y); // [I@7ad041f3
-		// 兩者已指向同一個記憶體位置（視為一體）。
+		// 兩者已指向同一個hashcode位置（視為一體）。
 		System.out.println(x[0]); // 40
 		System.out.println(y[0]); //40
 		System.out.println(Arrays.toString(x)); //[40, 50, 60]

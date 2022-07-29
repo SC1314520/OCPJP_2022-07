@@ -17,7 +17,7 @@ public class stu3 {
 		 System.out.println("總成績: "+stu.getSum());
 		 System.out.println("平均成績: "+stu.getAvg());
 		 System.out.println("========================");
-		 System.out.println(stu); // 物件內有 toString() 方法 --> 可以直接這樣寫。 但物件內未寫 toString() 方法的話，會顯示物件的記憶體位置。
-		 System.out.println(stu.toString()); //物件內未寫 toString() 方法的話，會顯示物件的記憶體位置。
+		 System.out.println(stu); // 物件內有 toString() 方法 --> 可以直接這樣寫。 但物件內未寫 toString() 方法的話，會顯示物件的hashcode位置。
+		 System.out.println(stu.toString()); //物件內未寫 toString() 方法的話，會顯示物件的hashcode位置。
 	}
 }

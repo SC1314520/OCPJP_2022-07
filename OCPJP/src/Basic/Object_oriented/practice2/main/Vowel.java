@@ -15,7 +15,7 @@ public class Vowel {
 		System.out.println(var1+","+var2); // a,e
 		System.out.println(obj1.var+","+obj2.var); // o,o
 		
-		System.out.println(obj1==obj2); // 因為記憶體位置相同，所以答案為 true。
+		System.out.println(obj1==obj2); // 因為hashcode位置相同，所以答案為 true。
 		
 	}
 }

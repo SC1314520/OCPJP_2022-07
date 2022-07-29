@@ -30,7 +30,7 @@ public class student{
 		String name="Tom";
 		int chinese=70,english=80; //普通變數
 		method std1=new method(name,chinese,english); //帶值的物件變數
-		System.out.println(std1);// return 寫法，方法中無toString()，則顯示為記憶體位置。
+		System.out.println(std1);// return 寫法，方法中無toString()，則顯示為hashcode位置。
 		System.out.println(std1);// return 寫法，方法中有toString()，則顯示為字串。
 		
 		

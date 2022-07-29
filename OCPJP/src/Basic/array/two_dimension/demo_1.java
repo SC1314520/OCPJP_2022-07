@@ -25,8 +25,8 @@ public class demo_1 { // 二維陣列
 		int[][] nums3 = {{1,2,3},{4,5,6}}; // 這樣也可以
 		
 		// 傳值與傳址
-		System.out.println(nums); // 二維記憶體位址: [[I@7d6f77cc
-		System.out.println(nums[0]); // 一維記憶體位址: [I@5aaa6d82
+		System.out.println(nums); // 二維hashcode位置: [[I@7d6f77cc
+		System.out.println(nums[0]); // 一維hashcode位置: [I@5aaa6d82
 		System.out.println(nums[0][0]); // 輸出 int 預設值: 0
 		
 		// 印出陣列
