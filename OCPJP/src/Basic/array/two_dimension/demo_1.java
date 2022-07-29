@@ -19,7 +19,7 @@ public class demo_1 { // 二維陣列
 		// 樹狀圖證明
 		System.out.println(nums.length);// 2 --> 先分兩條
 		System.out.println(nums[0].length); // 3  --> 再分三條
-		
+		//System.out.println(nums[0][0].length); --> 不可以這樣寫，因為這是數值。
 		// 另類宣告法
 		int[][] nums2 =new int[][] {{1,2,3},{4,5,6}}; //等同於 [2][3]
 		int[][] nums3 = {{1,2,3},{4,5,6}}; // 這樣也可以
@@ -32,7 +32,6 @@ public class demo_1 { // 二維陣列
 		// 印出陣列
 		System.out.println(Arrays.toString(nums2)); // 輸出:  [[I@73a28541, [I@6f75e721] 
 		System.out.println(Arrays.toString(nums2[0])); //輸出: [1, 2, 3]
-		
 		// for 迴圈
 		for(int[] i:nums2) {
 			System.out.println(Arrays.toString(i)); // 輸出: [1, 2, 3] , [4, 5, 6]
