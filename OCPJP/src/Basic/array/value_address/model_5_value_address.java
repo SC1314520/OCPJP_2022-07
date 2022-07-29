@@ -10,11 +10,11 @@ public class model_5_value_address {
 		System.out.println(y); // [I@7ad041f3
 		System.out.println(x[0]); //10
 		System.out.println(y[0]); //40
-		x=y; //位址＝位址 pass by address --> 消滅(左側被消滅) --> 回收記憶體 --> garbage collection --> gc 
+		x=y; // hashcode 位址＝hashcode 位址 ，一樣是 pass by value --> 消滅(左側被消滅) --> 回收記憶體 --> garbage collection --> gc 
 		// x[0]=y[0] 值＝值 pass by values (copy) 
 		System.out.println(x); // [I@7ad041f3
 		System.out.println(y); // [I@7ad041f3
-		// 兩者已指向同一個hashcode位置（視為一體）。
+		// 兩者已指向同一個 hashcode 位置（視為一體）。
 		System.out.println(x[0]); // 40
 		System.out.println(y[0]); //40
 		System.out.println(Arrays.toString(x)); //[40, 50, 60]
