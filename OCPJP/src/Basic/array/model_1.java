@@ -25,8 +25,8 @@ public class model_1 {
 		int[] arrays= {123,456,789};
 		
 		//array-3
-		int[] arrayss=new int[] {}; //陣列長度為 0
-		System.out.println(arrayss.length); //陣列長度為 0
+		int[] arrayss=new int[] {}; //陣列長度為 0 !!
+		System.out.println(arrayss.length); //陣列長度為 0 !!
 		//System.out.println(arrayss[0]); -->java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
 		int[] arraysss= {}; 
 		System.out.println(arraysss.length); //陣列長度為 0
