@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class ex {
 	public static void main(String[] args) {
-		//-------------- Array.asList()----------------//
+		//-------------- Arrays.asList()----------------//
 		List<Integer> list =new ArrayList<>(); // 可以利用 add() 的方式新增資料。
 		
 		List<Integer> list2 = Arrays.asList(1,2,3); // 不可新增資料 ....(1)
