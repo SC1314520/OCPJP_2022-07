@@ -49,6 +49,13 @@ public class ex {
 		System.out.println(a.equals(b));//false <--判定 hashCode
 		System.out.println(Arrays.toString(a).equals(Arrays.toString(b))); // true <-- 判定 String
 		System.out.println(Arrays.equals(a, b)); // true <-- Returns true if the two specified arrays of ints are equal to one another.
+		a=b; // garbage collection --> pass by value --> b的 hashcode 傳遞給 a --> a 被回收。 --> 此時兩者指向同一個物件。
+		System.out.println(a==b); // true
+		System.out.println(a.equals(b)); // true
+		a[0]=5; // a[0]改變 --> b[0] 跟著改變。
+		System.out.println(b[0]); // 5
+		b[1]=6; // b[1]改變 --> a[1] 跟著改變。
+		System.out.println(a[1]); // 6
 		
 		//-------------- Array.fill()---------------//
 		int[] c =new int[10];
