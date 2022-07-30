@@ -3,7 +3,7 @@ package Basic.math;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Random;
-import java.util.stream.IntStream;
+
 
 public class demo_4 { // 亂數
 	public static void main(String[] args) {
