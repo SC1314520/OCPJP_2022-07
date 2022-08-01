@@ -1,4 +1,4 @@
-package Basic.inherit.method;
+package Basic.inherit.ex;
 
 public class ex_method {
 	String type ="Canine";
