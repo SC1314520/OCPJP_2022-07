@@ -2,9 +2,9 @@ package Basic.inherit.demo_1;
 
 public class test {
 	public static void main(String[] args) {
-		A a =new A();
-		B b =new B();
-		System.out.println(a.chi+"  "+a.word); 
-		System.out.println(b.chi+"  "+b.excel);
+		A a =new A("John",80,80);
+		B b =new B("Mary",70,90);
+		a.show();
+		b.show();
 	}
 }
