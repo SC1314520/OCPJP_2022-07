@@ -30,6 +30,10 @@ public class Company {
 	{
 		return 0;
 	}
+	
+	protected int efg(int y) {
+		return 1;
+	}
 
 	
 }

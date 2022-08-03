@@ -40,4 +40,12 @@ public class CA extends Company{
 	 * 如果父類別有設定封裝權限，子類別的權限需 >= 父類別
 	 * Public > protected > (default) > private
 	 */
+	 /* protected or */ public int efg(int y) {  // public > protected
+		return 1;
+	}
+	 
+	 // override + super.
+	 public String show() {
+		 return super.show()+" Lcd: "+Lcd;
+	 }
 }
