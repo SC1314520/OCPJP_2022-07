@@ -27,4 +27,17 @@ public class CA extends Company{
 		}
 	}
 	
+	/*
+	public void abc(int aaa) <-- override 必須與父類別型態相同 int 而非 void
+	{
+		當名稱一樣，括號也一樣時，會強制要求遵守 override 規則，將類型也須設定稱一樣 ,否則會編譯失敗
+	}
+	*/
+	public int abc(int aaa) {
+		return 0;
+	}
+	/*
+	 * 如果父類別有設定封裝權限，子類別的權限需 >= 父類別
+	 * Public > protected > (default) > private
+	 */
 }

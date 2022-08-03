@@ -26,5 +26,10 @@ public class Company {
 	public void skill(int n) {
 		System.out.println("n= "+n);
 	}
+	public int abc(int x)
+	{
+		return 0;
+	}
+
 	
 }
