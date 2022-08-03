@@ -1,7 +1,7 @@
-package Basic.inherit.demo_3;
+package Basic.inherit.demo_3_FieldandMethod;
 
 public class CB extends Company {
-	int RAM;
+	private int RAM;
 	public CB(String name) {
 		super(name);
 	}
