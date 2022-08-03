@@ -78,4 +78,3 @@ public class test {
 	D. protected long getInt(int i){return i;} -->override
 	E. protected int getInt(long i){return (int)i;} -->overload
  */
-*/
