@@ -47,6 +47,28 @@ public class test2 { // 多型陣列
 		 sic.inherit.demo_4_polymorphism.B@e2d56bf	name: b4
 		
 		 */
+		System.out.println(x[0][0]);
+		//x[0][0].skillA();  <-- 須遵守異質宣告
+		((A)x[0][0]).skillA(); // <-- 必須轉型!! 由 super 轉成 sub
 		
+		// 也可以在父類別新增同名方法以符合異質宣告要求
+		x[0][0].skillA();  // <-- 此時，這樣撰寫可以通過!!
+		
+		
+		// equals()
+		System.out.println(x[0][0]); // Basic.inherit.demo_4_polymorphism.A@606d8acf
+		System.out.println(x[1][0]); // Basic.inherit.demo_4_polymorphism.B@33833882
+		System.out.println(x[0][0].equals(x[1][0])); // false
+		
+		x[0][0]=x[1][0]; // call by value (hashCode = hashCode)
+		
+		System.out.println(x[0][0]); // Basic.inherit.demo_4_polymorphism.B@33833882
+		System.out.println(x[1][0]); // Basic.inherit.demo_4_polymorphism.B@33833882
+		System.out.println(x[0][0].equals(x[1][0])); // true
+		
+		
+		// getClass()
+		System.out.println(x[0][1].getClass()); // class Basic.inherit.demo_4_polymorphism.A
+		System.out.println(x[1][1].getClass()); // class Basic.inherit.demo_4_polymorphism.B
 	}
 }

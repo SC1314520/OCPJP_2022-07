@@ -9,4 +9,7 @@ public class school {
 	public String show() {
 		return "name: "+name;
 	}
+	public void skillA() {
+		
+	}
 }
