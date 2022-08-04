@@ -70,5 +70,19 @@ public class test2 { // 多型陣列
 		// getClass()
 		System.out.println(x[0][1].getClass()); // class Basic.inherit.demo_4_polymorphism.A
 		System.out.println(x[1][1].getClass()); // class Basic.inherit.demo_4_polymorphism.B
+		
+		
+		// toString()  -->  getClass().getName() + '@' + Integer.toHexString(hashCode())
+		System.out.println(x[0][2]); // toString() 會自動加  --> Basic.inherit.demo_4_polymorphism.A@470e2030
+		System.out.println(x[0][2].toString()); // Basic.inherit.demo_4_polymorphism.A@470e2030
+		
+		// @override toString()  --> 在 B 方法中 override
+		System.out.println(x[1][2]); // B [Eng=78]
+		System.out.println(x[1][2].toString()); // B [Eng=78]
+		
+		// instanceOf  --> 判斷是否有 is-a 關係。
+		System.out.println(x[1][3] instanceof school); // true
+		System.out.println(x[1][3] instanceof A); // false
+		System.out.println(x[1][3] instanceof B); // true
 	}
 }

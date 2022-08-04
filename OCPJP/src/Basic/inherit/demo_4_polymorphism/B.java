@@ -6,4 +6,9 @@ public class B extends school{
 		super(name);
 		this.Eng=Eng;
 	}
+	@Override
+	public String toString() {
+		return "B [Eng=" + Eng + "]";
+	}
+		
 }
