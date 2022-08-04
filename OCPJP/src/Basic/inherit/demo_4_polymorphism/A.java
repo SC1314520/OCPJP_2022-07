@@ -9,4 +9,7 @@ public class A extends school{
 	public String show() {
 		return super.show()+" chi: "+chi;
 	}
+	public void skillA() {
+		System.out.println("I AM skillA!");
+	}
 }
