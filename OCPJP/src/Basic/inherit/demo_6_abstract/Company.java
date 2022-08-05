@@ -1,6 +1,6 @@
 package Basic.inherit.demo_6_abstract;
 
-// 抽象類別無法產生實體(即無法 new Company())
+// 抽象類別無法產生實體(即無法 new Company())，僅供繼承使使用。
 abstract class Company {
 	private String name;
 	public Company(String name) {
