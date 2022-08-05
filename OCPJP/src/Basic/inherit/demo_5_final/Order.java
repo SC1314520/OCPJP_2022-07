@@ -1,6 +1,6 @@
 package Basic.inherit.demo_5_final;
 
-public /* final */ class Order {  // public final class 不可被繼承!!
+public /* final */ class Order {  // public  final class 不可被繼承!!
 	private String name; // private --> 可利用 set 更改。
 	final double pi=3.14; // 常數 -->不可更改，也不可使用set方式修改。 --> 只可讀，不可改。
 	final double pi2;  //--> 沒給初始值，編譯不會過! ....(1) --> 空 final 變數需搭配建構子。
