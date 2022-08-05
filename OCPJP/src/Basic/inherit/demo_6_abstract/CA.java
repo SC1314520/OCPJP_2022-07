@@ -9,4 +9,8 @@ public class CA extends Company{
 	public String show() {
 		return super.show()+" Lcd: "+Lcd;
 	}
+	public void setLcd(int lcd) {
+		Lcd = lcd;
+	}
+	
 }
