@@ -6,4 +6,7 @@ public class CA extends Company{
 		super(name);
 		this.Lcd=Lcd;
 	}
+	public String show() {
+		return super.show()+" Lcd: "+Lcd;
+	}
 }

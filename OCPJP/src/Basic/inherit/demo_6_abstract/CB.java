@@ -6,4 +6,7 @@ public class CB extends Company {
 		super(name);
 		this.RAM=RAM;
 	}
+	public String show() {
+		return super.show()+" RAM: "+RAM;
+	}
 }
