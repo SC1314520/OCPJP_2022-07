@@ -8,5 +8,9 @@ public class test {
 		bookStore b =new bookStore();
 		System.out.println(b.bookPrice(1000)); // 950.0
 		b.bookName("java11"); // book: java11
+		
+		bookStore2 b2 =new bookStore2();
+		System.out.println(b2.bookPrice(2000)); // 1900.0
+		b2.bookName("java web"); // book2: java web
 	}
 }
