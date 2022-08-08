@@ -7,7 +7,11 @@ public interface book { //--> interface 不可以 new
 	/* public static final */ double pi2=3.14;
 	
 	// constructors ( interface 無建構子)
+	// book(String name){}  --> 不可撰寫建構式。
 	
+	// methods --> public abstract 可省略。
+	public abstract void bookName(String name);	
+	/* public abstract */double bookPrice(double price);
 	
 	
 }

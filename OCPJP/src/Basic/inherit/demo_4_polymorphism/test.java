@@ -1,5 +1,11 @@
 package Basic.inherit.demo_4_polymorphism;
 
+ 
+/*
+ *  two benefits of polymorphism:
+ *  1. more dynamic code at runtime. 在執行時提供更多動態代碼。
+ *  2. more flexible and reusable code 更靈活和可重複使用的代碼。
+ */
 public class test { // 異質宣告
 	public static void main(String[] args) {
 		A a =new A("John",70);
