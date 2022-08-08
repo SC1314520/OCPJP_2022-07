@@ -12,5 +12,11 @@ public class test {
 		bookStore2 b2 =new bookStore2();
 		System.out.println(b2.bookPrice(2000)); // 1900.0
 		b2.bookName("java web"); // book2: java web
+		
+		
+		// java 8
+		b.CompanyName("company1");  // 物件類呼叫
+		book.CompanyName2("company2"); // 介面類別類呼叫 
+		// b.CompanyName2("company2");   <-- 介面類別不可這樣寫。
 	}
 }
