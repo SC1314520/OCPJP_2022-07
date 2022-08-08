@@ -8,8 +8,11 @@ public class test {
 		for(student i:s) {
 			System.out.println(i.show());
 		}
-		s[0].setChi(80);
-		System.out.println(s[0].show());
+		s[0].set(80);
+		s[1].set(75);
+		for(student i:s) {
+			System.out.println(i.show());
+		}
 		
 		
 	}

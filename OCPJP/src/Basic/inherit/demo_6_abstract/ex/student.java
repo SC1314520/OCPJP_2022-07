@@ -8,7 +8,7 @@ abstract public class student {
 	public String show() {
 		return "name: "+name;
 	}
-	abstract void setChi(int chi);
-	abstract void setEng(int eng);
-	
+	//abstract void setChi(int chi);
+	//abstract void setEng(int eng);
+	abstract void set(int x);
 }

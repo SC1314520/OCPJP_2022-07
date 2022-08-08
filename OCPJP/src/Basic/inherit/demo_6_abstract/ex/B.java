@@ -9,8 +9,11 @@ public class B extends student{
 	public void setEng(int eng) {
 		this.eng = eng;
 	}
-	public void setChi(int chi) {
+	/*public void setChi(int chi) {
 	
+	}*/
+	public void set(int eng) {
+		setEng(eng);
 	}
 	public String show() {
 		return super.show()+" eng: "+eng;
