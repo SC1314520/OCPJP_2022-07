@@ -1,4 +1,4 @@
-package Basic.inherit.ex.demo2;
+package Basic.inherit.ex.demo2_polychange;
 
 public class test {
 	public static void main(String[] args) {
