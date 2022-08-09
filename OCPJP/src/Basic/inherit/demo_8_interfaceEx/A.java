@@ -1,4 +1,4 @@
-package Basic.inherit.demo_8;
+package Basic.inherit.demo_8_interfaceEx;
 // extends 在前，implement 在後
 // class: extends 只能繼承一次 ，implements 可以多個
 // interface: extends 可以繼承多個 interface

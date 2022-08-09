@@ -1,4 +1,4 @@
-package Basic.inherit.demo_8;
+package Basic.inherit.demo_8_interfaceEx;
 /*
  *  class extends class
  *  class implements interface
