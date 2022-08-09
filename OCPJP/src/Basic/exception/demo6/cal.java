@@ -11,5 +11,15 @@ public class cal {
 		}
 		
 	}
+	
+	// stackoverflow
+	
+	public void abc1()
+	{
+		abc2();
+	}
+	public void abc2() {
+		abc1();
+	}
 }
 

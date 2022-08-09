@@ -13,6 +13,10 @@ public class test {
 				
 				// assert x>0 && y>0: "需大於 0"; // --> cmd:  java -ea test
 				System.out.println(c.sum(x, y));
+				
+				// stackoverflow
+				c.abc1(); 
+				
 			} catch (Exception e) {
 				System.out.println("x 和 y 皆需大於 0");
 			}
