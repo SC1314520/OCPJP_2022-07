@@ -15,7 +15,7 @@ public interface book { //--> interface 不可以 new
 	
 	
 	// java 8 以後新寫法    --> default 物件類 / static 類別類  --> 非抽象方法，可有 body
-	public default void CompanyName(String name) {  // 物件類-->物件呼叫
+	public default void CompanyName(String name) {  // 物件類-->物件呼叫 --> 允許 override
 		System.out.println("cname: "+name);
 	}
 	public static void CompanyName2(String name) { // 類別類 -->介面類別呼叫(只可用類別呼叫法，無法與普通的 static 一樣能夠使用物件方式呼叫。)
