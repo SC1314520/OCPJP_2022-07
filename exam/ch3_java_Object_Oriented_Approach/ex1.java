@@ -36,9 +36,9 @@ public class Elephant{
 
 A. It compiles nad prints 6.
 B. The code does not compile because of line k1.
-C. The code does not compile becaues of line k2.
-D. The code does not compile becaues of line k3.
-E. The code does not compile becaues of line k4.
+C. The code does not compile because of line k2.
+D. The code does not compile because of line k3.
+E. The code does not compile because of line k4.
 F. None of the above
 
 
