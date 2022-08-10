@@ -11,7 +11,13 @@ public class B extends student1 implements student2 {
 	}
 	@Override
 	public void skill() {
-		// TODO Auto-generated method stub
 		
+		System.out.println("I am skillB");
+		
+	}
+	
+	public String show()
+	{
+		return super.show()+"\t英文:"+eng;
 	}
 }
