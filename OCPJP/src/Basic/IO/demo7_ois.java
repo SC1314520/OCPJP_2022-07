@@ -16,7 +16,7 @@ public class demo7_ois {
 		// System.out.println(((student)ois.readObject()).getName());
 		
 		while(true) {
-			try {
+			try { // 預設為  Object ，所以要轉型．
 				((student)ois.readObject()).show();  //<-- 捕捉完畢後，仍在執行 while ...(1)
 			}catch (EOFException e) {
 				System.out.println("ending");
