@@ -9,6 +9,12 @@ public class B extends student1 implements student2 {
 		super(name);
 		this.eng=eng;
 	}
+	public int getEng() {
+		return eng;
+	}
+	public void setEng(int eng) {
+		this.eng = eng;
+	}
 	@Override
 	public void skill() {
 		

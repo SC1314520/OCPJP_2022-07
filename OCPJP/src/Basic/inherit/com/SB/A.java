@@ -10,9 +10,16 @@ public class A extends student1 implements student2{
 		super(name);
 		this.chi=chi;
 	}
+	public int getChi() {
+		return chi;
+	}
+	public void setChi(int chi) {
+		this.chi = chi;
+	}
 	@Override
 	public void skill() {
-		
+		this.x1=10;
+		this.x2=20; // 只有繼承的子類別可直接呼叫 x2 。
 		System.out.println("I am skillA");
 		
 	}
@@ -21,4 +28,13 @@ public class A extends student1 implements student2{
 	{
 		return super.show()+"\t國文:"+chi;
 	}
+	
+	@Override 
+	public void setMath(int math) {
+		if(math>=0 && math<=200) {
+			this.math=math;
+		}
+	}
+	
+	
 }

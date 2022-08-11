@@ -23,10 +23,14 @@ public class test {
 		A a1=new A("aa",85);
 		System.out.println(a1.show());
 		a1.skill();
+		a1.setMath(120); // 0~200
+		System.out.println(a1.getMath());
 		
 		B b1=new B("bb",70);
 		System.out.println(b1.show());
 		b1.skill();
+		b1.setMath(100); // 0~100
+		System.out.println(b1.getMath());
 		
 	}
 }
