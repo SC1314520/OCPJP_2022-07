@@ -12,6 +12,10 @@ public class B extends student1 implements student2 {
 	public int getEng() {
 		return eng;
 	}
+	/**
+	 * 
+	 * @param eng  Set method param named eng with int param by users;
+	 */
 	public void setEng(int eng) {
 		this.eng = eng;
 	}
