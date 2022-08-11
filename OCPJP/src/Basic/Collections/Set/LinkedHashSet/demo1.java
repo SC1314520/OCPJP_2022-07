@@ -27,7 +27,7 @@ public class demo1 {
 		linked.add("171");
 		linked.add("151");
 		
-		System.out.println(linked);
+		System.out.println(linked); //[111, 131, 151, 171] -->有序且不重複。
 	}
 	
 	
