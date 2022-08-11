@@ -22,5 +22,9 @@ public class ex {
 		while(it.hasNext()) {
 			System.out.println(it.next()); // John Mary Kelly Sherry
 		}
+		
+		for(Iterator<String> it2=coll.iterator(); it2.hasNext();) {
+			System.out.println(it2.next()); // John Mary Kelly Sherry
+		}
 	}
 }
