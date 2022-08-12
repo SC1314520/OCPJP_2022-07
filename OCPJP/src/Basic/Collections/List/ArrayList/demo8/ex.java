@@ -16,7 +16,8 @@ public class ex{
 		mt.multi(list);
 		
 		// return 方法
-		System.out.println("list3: "+new method().analyze(list)+" size: "+new method().list3.size()); // size:0
+		method mt2= new method();
+		System.out.println("list3: "+mt2.analyze(list)+" size: "+mt2.list3.size()); // size:0
 		
 		// static 方法
 		method.even(list);

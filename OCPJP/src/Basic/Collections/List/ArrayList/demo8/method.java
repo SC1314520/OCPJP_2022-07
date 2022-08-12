@@ -34,7 +34,6 @@ public class method {
 				continue;
 			}
 		}
-		System.out.println("list3 size: "+list3.size());
 		return list3;
 	}
 	
