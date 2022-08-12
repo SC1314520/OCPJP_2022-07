@@ -1,9 +1,6 @@
-package Basic.Object_oriented.practice6_static.main.inner.second;
+package Basic.Object_oriented.practice6_static.main.inner.focus;
 
 
-interface school1_2{
-	
-}
 
 // 外部類別僅可以擁有一個 public class
 class school1{
@@ -16,11 +13,14 @@ class school1{
 	}
 	
 	public void show2() {
+		//static int x=10; -->不可宣告 static 變數。
+		int y=20;
 		System.out.println("hello2");
 		sum=var+var2;  // 物件方法中可包含物件變數與類別變數。
 	}
 	
 	public static void show3() {
+		//static int test=20; -->不可宣告 static 變數。
 		int test=100;
 		System.out.println("hello3");
 		
@@ -79,6 +79,11 @@ class school1{
 					sum=var2;
 					System.out.println("hello9");
 				}
+				/*
+				public static void show9_2() {
+					
+				}
+				*/
 			}
 		}
 	}
@@ -117,18 +122,20 @@ class school1{
  * 總結：
  * 	1. 內部類別最外層若不為 static，則內部的內部類別不可為 static。
  *  2. 若內部類別內的「變數」與「方法」要宣告成 static，則內部類別必須宣告成 static。
- *  一語以蔽之： 內部若要有 static field, class or method，則內部類別最外層須宣告成 static。
+ *  一言以蔽之： 內部若要有 static field, class or method，則內部類別最外層須宣告成 static。
  *  
  * 內部類別與外部類別的差異：
  * 	1. 外部：同一檔案中，只可以有一個 public class 。內部： 可以同時包含多個 public inner class。
  * 	
  *  2. 外部：最外層「不可」宣告成 static，且裡面可以存放 static field,method,class。 
- * 	   內部：若內部須放置static field,method,class，則內部類別最外層須宣告成 static inner class。 --> 此外，static inner class 可以放 inner none-static field。
+ * 	   內部：若內部須放置static field,method,class，則內部類別外層以外皆須宣告成 static inner class。 --> 此外，static inner class 可以放 inner none-static field。
  *  
  *  3. 外部：static method 只能使用 static field / method's local none-static field。內部：static inner method, static inner class 只可使用 static field 或 inner none-static field。
  *    「但 static class & static inner class 皆可以使用 none-static method，但其中的 none-static method 中依舊只能使用 static field / method's local none-static field。」
  *  
  *  4. 外部：不可互相呼叫對方的 private field/method。 內部：可以互相呼叫對方的 private field/method。
+ *  
+ *  5. 外部與內部： none-static/ static method 皆不可宣告 method's local static field。
  */
 
 public class demo1 {
