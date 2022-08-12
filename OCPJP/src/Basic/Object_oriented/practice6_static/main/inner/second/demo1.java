@@ -21,7 +21,7 @@ class school1{
 	}
 	
 	public static void show3() {
-		
+		int test=100;
 		System.out.println("hello3");
 		
 		//sum=var+var2;  --> static 方法中僅可包含 static field  --> var 不屬於 static field
@@ -125,8 +125,8 @@ class school1{
  *  2. 外部：最外層「不可」宣告成 static，且裡面可以存放 static field,method,class。 
  * 	   內部：若內部須放置static field,method,class，則內部類別最外層須宣告成 static inner class。 --> 此外，static inner class 可以放 inner none-static field。
  *  
- *  3. 外部：static method 只能使用 static field 。內部：static inner method, static inner class 只可使用 static field 或 inner none-static field。
- *    「但 static class & static inner class 皆可以使用 none-static method，但其中的非 static method 中依舊只能使用 static field。」
+ *  3. 外部：static method 只能使用 static field / method's local none-static field。內部：static inner method, static inner class 只可使用 static field 或 inner none-static field。
+ *    「但 static class & static inner class 皆可以使用 none-static method，但其中的 none-static method 中依舊只能使用 static field / method's local none-static field。」
  *  
  *  4. 外部：不可互相呼叫對方的 private field/method。 內部：可以互相呼叫對方的 private field/method。
  */
