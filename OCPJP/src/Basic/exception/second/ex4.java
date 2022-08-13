@@ -18,7 +18,7 @@ public class ex4 {
 	}
 	public static void readFile(String fileName) throws IOException {
 		if(!fileName.equals("c:///b.txt")) {
-			throw new FileNotFoundException("路徑錯誤！"); // FileNotFoundException 是 IOException
+			throw new FileNotFoundException("路徑錯誤！"); // FileNotFoundException 是 IOException 子類別，所以直接宣告父類別即可
 		}
 		
 		if(!fileName.endsWith(".txt")) {
