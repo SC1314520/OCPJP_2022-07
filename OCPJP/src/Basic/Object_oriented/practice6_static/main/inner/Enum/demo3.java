@@ -23,7 +23,7 @@ public class demo3 {
 
 	}
 }
-class Company{ // 內部類別會自動加入 public static
+class Company{ // 內部類別會自動加入 public static      // Java 6 以前的基本寫法。
 	/* public static */enum Month{
 		一月,二月,三月
 	}
