@@ -34,7 +34,7 @@ public class ex {
 		 * 
 		 */
 		book2 b2= (String name)->{System.out.println(name);}; 
-		book2 b3 =(name)->{System.out.println(name);}; // 單一引數
+		book2 b3 =(name)->{System.out.println(name);}; 
 		book2 b4 =name->System.out.println(name);; // 單一引數
 		b2.bookName("Java 3");
 		b3.bookName("Java 4");
