@@ -34,10 +34,21 @@ enum book{ // book[]
 
 public class ex {
 	public static void main(String[] args) {
+		
+		System.out.println(book.java7); // price: 10 amount: 10
+		System.out.println(book.java7.getPrice()); // 10
+		
+		book.java7.setPrice(50);
+		System.out.println(book.java7.getPrice()); // 50
+		
 		System.out.println(Arrays.toString(book.values()));
+		
 		for(book i:book.values()) {
 			System.out.println(i.toString());
 			
+		}
+		for(int i=0;i<book.values().length;i++) {
+			System.out.println(book.values()[i]);
 		}
 	}
 }
