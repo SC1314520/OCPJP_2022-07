@@ -12,7 +12,7 @@ public class demo2 implements book {
 		// book b1 = new book(); --> interface 不可 new 。 
 		book b1 =new demo2(); // 可以以異質宣告的方式 new。
 		demo2 d =new demo2();
-		d.bookName("Java");
+		b1.bookName("Java");
 		System.out.println(d.bookPrice(1000));
 	}
 
