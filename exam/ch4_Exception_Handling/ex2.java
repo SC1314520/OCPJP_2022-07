@@ -13,7 +13,7 @@ Given the following application, what is the name of the class printed at line e
 
 package canyon;
 final class FallenException extends Exception{}
-final class HikingGer implements AutoCloseable{
+final class HikingGear implements AutoCloseable{
 	@Override public void close() throws Exception{
 		throw new FallenException();
 	}
