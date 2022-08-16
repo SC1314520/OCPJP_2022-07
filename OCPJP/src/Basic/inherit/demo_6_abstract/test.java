@@ -25,7 +25,7 @@ public class test {
 		 // 抽象方法可以宣告，但不可以 new (產生實體)。  但可以 new 其非抽象的子類別。
 		 // Company x =new Company("Kelly"); --> 不可這樣寫
 		 Company y =new CA("Sandy", 20);
-		 Company z =new CB("Windy", 30);
+		 //Company z =new CB("Windy", 30);
 		 
 		 
 	}

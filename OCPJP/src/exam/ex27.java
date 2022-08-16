@@ -9,7 +9,7 @@ Given:
 1. interface Pastry {
 2.   void getIngredients();
 3. }
-4. abstract class Cookie implements Pastry{}
+4. abstract class Cookie implements Pastry{}  // 若無實作介面或抽象類別時，子類別亦須轉換成抽象類別
 5. 
 6. class ChocolateCookie implements Cookie {  // extends !! 不是 implements...
 7.    public void getIngredients(){}
