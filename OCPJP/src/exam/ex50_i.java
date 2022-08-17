@@ -18,7 +18,13 @@ public class ex50_i {
 		String strFruits=s4.collect(Collectors.joining(","));	
 		System.out.println();
 		System.out.println("=========================");
-		List.of("banana","orange","apple","lemon").stream().peek(i->System.out.print(i+" ")).sorted().peek(i->System.out.print(i+" ")).collect(Collectors.joining(","));
+		List.of("banana","orange","apple","lemon")
+			.stream()
+			.peek(i->System.out.print(i+" "))
+			.sorted()
+			.peek(i->System.out.print(i+" "))
+			.collect(Collectors.joining(","));
+		
 	}
 }
 /*

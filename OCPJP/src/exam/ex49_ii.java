@@ -14,8 +14,6 @@ public class ex49_ii {
 		Predicate<Employee> p=e->e.getSalary()>30;
 		Function<Employee,Optional<String>> f=
 		      e->Optional.ofNullable(e.getNeighborhood());
-		      
-		      
 		      // f 要跟 key 類型相同。
 		      // groupingBy(function,Collectors)
 		      Map<Optional<String>,List<Employee>> r4=roster.stream()
