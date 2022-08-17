@@ -12,7 +12,7 @@ public class ex {
 			o[3]=new Order("a4", 4, 5);
 			o[1].setRAM(-3);
 			
-		} catch (check e) {
+		} catch (check e) {  // 若有自訂方法的話，建議使用 throws declaration
 		
 		} catch (Exception e) {
 			System.out.println("RAM & Lcd 須 >= 0");
