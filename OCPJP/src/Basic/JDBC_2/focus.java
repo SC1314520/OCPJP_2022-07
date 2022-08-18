@@ -39,6 +39,24 @@ package Basic.JDBC_2;
  * 				2. 判斷是否有數據
  * 				3. 獲取數據
  *  PreparedStatement : 執行 sql 的對象（更強大）
+ *  	1. SQL 注入問題：在拼接 sql 時，有一些 sql 的特殊關鍵字參與字串的拼接，會造成安全性問題。
+ *  		輸入用戶名隨意，輸入密碼： a' or 'a'='a
+ *  		sql: select * from user where username='asdadad' and password= 'a' or 'a'='a'    <-- 恆等式
+ * 		2. 解法sql注入問題：使用 PreparedStatement 對象來解決
+ * 		3. 預編譯的 SQL : 參數使用作為占位符。
+ * 		4. 步驟：	
+ * 			4.定義sql:
+ * 					sql的參數使用作為占位符。
+ * 						select * from user where username=？ and password=？
+ * 			5.獲取sql:
+ * 				PreparedStatement = Connection.prepareStatement(String sql);
+ * 			6. 給？賦值：
+ * 					1. 方法： setxxx(參數1,參數2)
+ * 							參數1 :表示？的位置編號
+ * 							參數2 :表示？的值
+ * 			7.執行sql: 接受返回結果，不需要傳遞 sql 語句。
+ * 			8.處理結果
+ * 			9.釋放資源
  * 
  */
 public class focus {
