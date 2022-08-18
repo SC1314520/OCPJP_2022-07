@@ -27,12 +27,17 @@ package Basic.JDBC_2;
  * 				返回值：影響的行數，可以通過影響的行數判斷DML語句是否執行成功，若>0，則執行成功，反之，則失敗。
  * 			ResultSet executeQuery(String sql):執行 DQL(select)語句。
  * 	ResultSet : 結果集對象 --> 封裝查詢結果
- * 		next():游標向下一行。
- * 		getxxx(參數):獲取數據
+ * 		boolean next():游標向下一行。  判斷當前行是否是最後一行末尾（是否有數據)，如果是，則返回false。
+ * 		getxxx(參數):獲取數據。
  * 			xxx: 代表數據類型  --> 如 int getInt()  , String getString()
  * 			參數：
  * 				int: 代表列的編號，index 從 1 開始。 如： getString(1) 
  * 				String: 代表列的名稱。 如： getDouble("balance");
+ * 		注意：
+ * 			使用的步驟：
+ * 				1. 游標向下移動一行
+ * 				2. 判斷是否有數據
+ * 				3. 獲取數據
  *  PreparedStatement : 執行 sql 的對象（更強大）
  * 
  */
