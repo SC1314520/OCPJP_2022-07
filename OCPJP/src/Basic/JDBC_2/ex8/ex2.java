@@ -8,25 +8,22 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ex { // ResultSet
+import Basic.JDBC_2.util.JDBCUtils;
+
+public class ex2 { // ResultSet
 	public static void main(String[] args) {
-		System.out.println(findAll());
-		System.out.println(findAll().size());
+		System.out.println(findAll2());
+		System.out.println(findAll2().size());
 	}
 	
-	public static List<User> findAll(){
+	public static List<User> findAll2(){
 		List<User> list =new ArrayList<>();
 		Statement stmt=null;
 		Connection conn=null;
 		ResultSet rs=null;
 		try {
-			//註冊驅動
-			Class.forName("com.mysql.jdbc.Driver");
-			//獲取數據庫連接對象 Connection
-			String url="jdbc:mysql://localhost:3306/company";
-			String user="root";
-			String password="12345678";
-			conn=DriverManager.getConnection(url,user,password);
+			conn=JDBCUtils.getConnection();
+			
 			String sql =" select * from account";
 			
 			stmt =conn.createStatement();
@@ -41,36 +38,10 @@ public class ex { // ResultSet
 				list.add(new User(id, account, pd));
 				
 			}; 
-			
 		} catch (Exception e) {
 			
 		} finally { // 釋放資源
-			if(stmt!=null) {
-				try {
-					stmt.close();
-				} catch (SQLException e) {
-					
-					e.printStackTrace();
-				}
-			}
-			if(conn!=null) {
-				try {
-					conn.close();
-				} catch (SQLException e) {
-					
-					e.printStackTrace();
-				}
-			}
-			
-			if(rs!=null) {
-				try {
-					rs.close();
-				} catch (SQLException e) {
-					
-					e.printStackTrace();
-				}
-			}
-			
+			JDBCUtils.close(rs,stmt, conn);
 		}
 		return list;
 	}
