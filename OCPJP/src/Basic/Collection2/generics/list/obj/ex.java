@@ -1,4 +1,4 @@
-package Basic.Collection2.generics.map.obj;
+package Basic.Collection2.generics.list.obj;
 
 import java.util.ArrayList;
 
