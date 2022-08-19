@@ -14,6 +14,7 @@ public class ex {
 		for(student o:list) {
 			o.show();
 		}
+		
 	}
 	
 }
