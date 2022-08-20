@@ -3,6 +3,8 @@ package Basic.IO_2.ex16;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 /*
  *  ObjectOutputStream extends OutputStream
@@ -14,5 +16,7 @@ public class ex1 {
 		ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream("/Users/blc0000421gmail.com/Desktop/io/j.txt"));
 		oos.writeObject(new Person("John",18));
 		oos.close();
+		
+		
 	}
 }
