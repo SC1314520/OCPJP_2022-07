@@ -5,7 +5,7 @@ import java.io.IOException;
 
 /*
  *   java.io.Reader : 字符輸出流，是字符輸出流的最頂層父類別，定義了一些共性的成員方法 ， 是一個「抽象類別」
- *   FileReader extends OutputStreamWriter extends Writer
+ *   FileReader extends OutputStreamReader extends Reader
  *   
  *   構造方法的作用（注意）： 會創建文件！！ 
  *   
