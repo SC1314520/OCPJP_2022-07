@@ -1,10 +1,8 @@
-package Basic.IO_2.ex7;
+package Basic.IO_2.ex7.filter;
 
 import java.io.File;
 
-import Basic.IO_2.ex7.filter.FileFilterImpl;
-
-public class ex5 {
+public class ex6 {
 	public static void main(String[] args) {
 		File file =new File("/Users/blc0000421gmail.com/Desktop/io/ex2");
 		getAllFile(file);
@@ -13,13 +11,12 @@ public class ex5 {
 	// 只要 .txt 結尾的文件
 	public static void getAllFile(File dir) {
 		//System.out.println(dir);
-		File[] files=dir.listFiles();
+		File[] files=dir.listFiles(new FileFilterImpl());
 		for(File f:files) {
 			if(f.isDirectory()) {
 				getAllFile(f);
 			}
 			else {		
-				if(f.getName().toLowerCase().endsWith(".txt"))
 					System.out.println(f);
 			}
 			/*
