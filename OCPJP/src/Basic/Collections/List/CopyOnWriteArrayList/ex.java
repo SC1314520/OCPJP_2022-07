@@ -70,10 +70,6 @@ public class ex {
 		list4.remove("Jack"); // --> 刪除第一個吻合的元素。
 		System.out.println(list4); // [Mary, Jack, Windy]
 		
-
-		
-		
-		
 		// set​(int index, E element) Replaces the element at the specified position in this list with the specified element.
 		list4.set(0, "Kelly"); // 取代
 		System.out.println(list4); // [Kelly, Jack, Windy]
