@@ -1,6 +1,6 @@
 package Basic.Collections.api.demo2;
 
-public class Person implements Comparable<Person> {
+public class Person implements Comparable<Person>  {
 	private String name;
 	private int age;
 	public Person() {
