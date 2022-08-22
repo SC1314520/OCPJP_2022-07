@@ -80,7 +80,7 @@ module OCPJP {
 	exports Basic.Collection2.generics.demo1;
 	exports Basic.lambda_2.predicate;
 	exports Basic.array.object_oriented_array.method;
-	exports Basic.lambda_2.function;
+	exports Basic.lambda_2.consumer;
 	exports Basic.for_loop;
 	exports Basic.inherit.demo_1;
 	exports Basic.Concurrency_2.demo1;

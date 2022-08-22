@@ -63,7 +63,7 @@ ans:E
 //---------------------------------------------------------------//
 
 /*
-How many of these keywords can be used in a module-info.java file:close,export,
+How many of these keywords can be used in a module-info.java file:close,import,
 export,require,and uses?
 
 A. None
