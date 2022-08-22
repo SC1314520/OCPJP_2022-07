@@ -7,7 +7,7 @@ import java.util.List;
 public class ex {
 	public static void main(String[] args) {
 		
-		List<Object> list =new ArrayList<>();
+		List list =new ArrayList(); // unchecked --> 不檢查泛型
 		list.add("John");
 		list.add(10);
 		list.add(10.1f);

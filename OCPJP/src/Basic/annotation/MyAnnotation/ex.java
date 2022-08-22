@@ -1,5 +1,6 @@
 package Basic.annotation.MyAnnotation;
 
+@SuppressWarnings("deprecation")
 public class ex {
 	
 	// 反射來處理註解
