@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 
 //  如果需要将流中的元素映射到另一个流中，可以使用 map 方法。
 
-public class map {
+public class end {
 	public static void main(String[] args) {
 		List<String> numbers = Arrays.asList("3", "2", "2", "3", "7", "3", "5");
 		
