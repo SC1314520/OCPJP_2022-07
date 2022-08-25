@@ -21,7 +21,7 @@ public class LocalDateTimeEx {
 		
 		
 		// 時間間隔
-		System.out.println(t2.until(t, ChronoUnit.MONTHS));
+		System.out.println(t2.until(t, ChronoUnit.MONTHS)); // 238 個月
 		
 	}
 }
