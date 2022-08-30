@@ -9,6 +9,8 @@ public class demo {
 		System.out.print("請輸入您要註冊的用戶名：");
 		String username =sc.next();
 		checkUsername(username);
+		//方法拋出異常且return終止後，不會中斷之後的程式運行。
+		System.out.println("end");
 	}
 	
 	public static void checkUsername(String username) throws RegisterException { // 要聲明拋出例外
