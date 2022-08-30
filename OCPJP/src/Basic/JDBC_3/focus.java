@@ -32,6 +32,24 @@ PreparedStatement api:
 	setTime(int parameterIndex, Time x, Calendar cal)
 	setTimestamp(int parameterIndex, Timestamp x)
 	setTimestamp(int parameterIndex, Timestamp x, Calendar cal)
+	setString(int parameterIndex, String x)
+	
+	// 範例
+			String sql="update company.acc set money= money-? where id=?";
+			String sql2="update company.acc set money= money+? where id=?";
+			
+			pstmt =conn.prepareStatement(sql); 
+			pstmt2=conn.prepareStatement(sql2);
+			
+			pstmt.setDouble(1, 500); 
+			pstmt.setInt(2, 14);
+			
+			pstmt2.setDouble(1, 500);
+			pstmt2.setInt(2, 13);
+			
+			pstmt.executeUpdate();
+			pstmt2.executeUpdate();
+	 
 
 Interface ResultSet api:
 	getByte(int columnIndex)

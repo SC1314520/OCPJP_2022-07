@@ -10,7 +10,8 @@ public class for_model_2 {
 		int n = scanner.nextInt();
 		System.out.print("請輸入行數:");
 		int m = scanner.nextInt();
-		a: // label 必須寫在所要指定的 for 迴圈前一行
+		a:
+			// label 必須寫在所要指定的 for 迴圈前一行
 		for (i = 1; i <= n; i++) {
 			for (j = 1; j <= m; j++) {
 				if (j == 10)

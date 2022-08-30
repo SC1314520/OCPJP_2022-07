@@ -15,5 +15,6 @@ public class for_model_1 {
 				continue; // 40~80 不執行
 			System.out.println("i=" + i);
 		}
-	}
+		
+		}
 }
