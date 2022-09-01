@@ -3,7 +3,7 @@ package Basic.Object_oriented.practice6_static.main.inner.Enum;
 import java.util.Arrays;
 
 /*
- *  Enum: Java 6 以上以前只可以存放 String ， Java 7 以後可以以物件方式儲存。
+ *  Enum: Java 6 以前只可以存放 String ， Java 7 以後可以以物件方式儲存。
  * 		1. 只能存放值
  * 		2. 本身與內容皆具有： public static final
  * 		3. 可稱作沒有名字的陣列：  Values() --> 轉陣列

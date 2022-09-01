@@ -15,5 +15,7 @@ public class change_type{
 		
 		two=one; // 父＝子 （可）
 		//one=two;  子＝父 （不可）
+		
+		// 但向上轉型安全，向下轉型不安全。
 	}
 }
