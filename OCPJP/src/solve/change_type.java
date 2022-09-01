@@ -17,5 +17,12 @@ public class change_type{
 		//one=two;  子＝父 （不可）
 		
 		// 但向上轉型安全，向下轉型不安全。
+		
+		
+		
+		int num =(int)10.5;
+		System.out.println(num); // 10
+		
+		
 	}
 }
