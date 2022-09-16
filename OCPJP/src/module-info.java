@@ -21,7 +21,6 @@ module OCPJP {
 	exports Basic.Collections.Set.LinkedHashSet;
 	exports Basic.exception;
 	exports Basic.lambda.function.function;
-	exports exam;
 	exports Basic.IO_2;
 	exports Basic.annotation;
 	exports Basic.annotation.Deprecated;
